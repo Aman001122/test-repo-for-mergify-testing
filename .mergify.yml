@@ -6,3 +6,7 @@ pull_request_rules:
       label:
         add:
           - mergify-test
+queue_rules:
+  - name: test-queue
+    queue_conditions:
+      - author = Aman001122
