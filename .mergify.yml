@@ -10,3 +10,8 @@ queue_rules:
   - name: test-queue
     queue_conditions:
       - author = Aman001122
+merge_protections:
+  - name: Bounty Test Protection
+    if: []
+    success_conditions:
+      - label = security-approved
