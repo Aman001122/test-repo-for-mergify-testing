@@ -1,1 +1,8 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: Add test label
+    conditions:
+      - author = Aman001122
+    actions:
+      label:
+        add:
+          - mergify-test
